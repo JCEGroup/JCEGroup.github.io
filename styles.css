@@ -211,3 +211,8 @@ h1:hover, p:hover {
     transition: transform 0.3s ease;
     filter: invert(1);
 }
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
