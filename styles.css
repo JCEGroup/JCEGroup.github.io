@@ -1,18 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background: 
+    padding: 20px;    background: 
         radial-gradient(circle at var(--x, 50%) var(--y, 50%), 
-                       rgba(15, 30, 60, 0.8) 0%, 
+                       rgba(16, 31, 100, 0.8) 0%, 
                        transparent 50%),
         radial-gradient(circle at calc(var(--x, 50%) + 200px) calc(var(--y, 50%) + 100px), 
-                       rgba(0, 0, 0, 0.6) 0%, 
+                       rgba(0, 0, 58, 0.7) 0%, 
                        transparent 50%),
         radial-gradient(circle at calc(var(--x, 50%) - 150px) calc(var(--y, 50%) + 80px), 
-                       rgba(10, 20, 40, 0.7) 0%, 
+                       rgba(10, 20, 64, 0.8) 0%, 
                        transparent 50%),
-        linear-gradient(135deg, #000000 0%, #0a0a0a 25%, #1a2332 50%, #000000 100%);
+        linear-gradient(135deg, #040b2c 0%, #00003a 75%, #101f64 90%, #000000 100%);
     background-attachment: fixed;
     text-align: center;
     color: #f1f1f1;
