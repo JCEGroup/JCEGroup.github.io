@@ -204,3 +204,10 @@ h1:hover, p:hover {
         margin-right: 50px;
     }
 }
+.social-icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+    filter: invert(1);
+}
